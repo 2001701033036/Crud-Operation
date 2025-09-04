@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { API_URL } from "../Constants/URL";
 import axios from "axios";
+import { MdAddCircle } from "react-icons/md";
 
 function Create() {
   const [apidata, setAPIdata] = useState([]);
@@ -85,13 +86,21 @@ function Create() {
 
   return (
     <div className="p-6 mx-auto">
+
+      <div className="w-full flex justify-end gap-2">
+          <button
+                  className="bg-orange-400 flex justify-center items-center gap-2  text-white px-4 py-2 rounded hover:bg-green-700 mb-4"
+                  onClick={openCreateModal}
+                >
+                 <MdAddCircle />  Create Product
+                </button>
+
+                
+      </div>
       
-      <button
-        className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 mb-4"
-        onClick={openCreateModal}
-      >
-        Create Product
-      </button>
+      
+
+     
 
       
       <div className="bg-white shadow-md rounded-lg w-full p-4">

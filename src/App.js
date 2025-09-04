@@ -3,18 +3,12 @@ import React from 'react';
 import './App.css';
 import Create from './Componenets/Create';
 import Figma from './Componenets/Figma';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      {/* Optional Navigation */}
-      {/* <nav>
-        <Link to="/">Create</Link> |{" "}
-        <Link to="/figma">Figma</Link>
-      </nav> */}
-
-      {/* Routing */}
+  
       <Routes>
         <Route path="/" element={<Create />} />
         <Route path="/figma" element={<Figma />} />

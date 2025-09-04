@@ -1,5 +1,4 @@
-import React from "react";
-import music from '../images/musimages.png'
+
 import image from '../images/mis.png'
 
 import hotspot from '../images/Screenshot 2025-09-04 160356.png'
@@ -16,7 +15,7 @@ function Figma() {
             <div className="flex items-center justify-center">
                 <img
                     className="w-[1000px] h-[200px]"
-                    src={image}
+                    alt='jjj' src={image} 
 
                 />
             </div>
@@ -83,7 +82,7 @@ function Figma() {
             <div className="bg-slate-100 flex mx-auto  justify-between p-8 px-20">
                 <div className="flex bg-white">
                     <div>
-                        <img className="w-[100px] h-[100px] rounded" src={hotspot} />
+                        <img className="w-[100px] h-[100px] rounded" alt='jjj'  src={hotspot} />
                     </div>
 
                     <div className="place-items-start ml-2 pr-5 rounded ">
@@ -95,7 +94,7 @@ function Figma() {
 
                 <div className="flex bg-white">
                     <div>
-                        <img className="w-[100px] h-[100px] rounded" src={ai} />
+                        <img className="w-[100px] h-[100px] rounded" alt='jjj' src={ai} />
                     </div>
 
                     <div className="place-items-start  ml-2 pr-5 rounded">
@@ -108,7 +107,7 @@ function Figma() {
 
                 <div className="flex bg-white">
                     <div>
-                        <img className="w-[100px] h-[100px] rounded" src={shipping} />
+                        <img className="w-[100px] h-[100px] rounded" alt='jjj' src={shipping} />
                     </div>
 
                     <div className="place-items-start ml-2 pr-5 rounded">
@@ -142,7 +141,7 @@ function Figma() {
 
                         <div className="flex bg-white mb-8">
                             <div>
-                                <img className="w-[100px] h-[100px] rounded" src={hotspot} />
+                                <img className="w-[100px] h-[100px] rounded" alt='jjj' src={hotspot} />
                             </div>
 
                              <div className="place-items-start ml-2 pr-5 rounded ">
@@ -155,7 +154,7 @@ function Figma() {
 
                         <div className="flex bg-white mb-8 mt-3">
                             <div>
-                                <img className="w-[100px] h-[100px] rounded" src={hotspot} />
+                                <img className="w-[100px] h-[100px] rounded" alt='jjj' src={hotspot} />
                             </div>
 
                             <div className="place-items-start ml-2 pr-5 rounded ">
@@ -168,7 +167,7 @@ function Figma() {
 
                           <div className="flex bg-white mt-4">
                             <div>
-                                <img className="w-[100px] h-[100px] rounded" src={hotspot} />
+                                <img className="w-[100px] h-[100px] rounded" alt='jjj' src={hotspot} />
                             </div>
 
                             <div className="place-items-start ml-2 pr-5 rounded ">
@@ -185,7 +184,7 @@ function Figma() {
                     <h2 className="text-lg font-bold text-gray-800 border-dashed border-cyan-300 ">Latest News</h2>
                     <div className="bg-white p-4 shadow rounded-lg hover:shadow-lg cursor-pointer">
                         <img
-                            src={img1}
+                             src={img1}
                             alt="News"
                             className="rounded-lg mb-2"
                         />
@@ -193,7 +192,7 @@ function Figma() {
                     </div>
                     <div className="bg-white p-4 shadow rounded-lg hover:shadow-lg cursor-pointer">
                         <img
-                            src={img2}
+                             src={img2}
                             alt="News"
                             className="rounded-lg mb-2"
                         />

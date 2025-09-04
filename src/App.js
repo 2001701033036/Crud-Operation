@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
 import './App.css';
+import Create from './Componenets/Create';
+import Figma from './Componenets/Figma';
+import { Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Optional Navigation */}
+      {/* <nav>
+        <Link to="/">Create</Link> |{" "}
+        <Link to="/figma">Figma</Link>
+      </nav> */}
+
+      {/* Routing */}
+      <Routes>
+        <Route path="/" element={<Create />} />
+        <Route path="/figma" element={<Figma />} />
+        {/* Optional: 404 Not Found route */}
+        <Route path="*" element={<h2>404 Page Not Found</h2>} />
+      </Routes>
     </div>
   );
 }

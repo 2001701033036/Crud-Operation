@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
       {/* Optional Navigation */}
-      <nav className='mt-7 flex gap-3 items-center justify-center '>
+      {/* <nav className='mt-7 flex gap-3 items-center justify-center '>
         <Link className=' w-36 px-4 py-3 bg-green-600 rounded-md text-white hover:bg-cyan-500 transition-all duration-300' to="/">CRUD Project</Link>
         <Link className='w-36 px-4 py-3 bg-green-600 rounded-md text-white hover:bg-cyan-500 transition-all duration-300'  to="/figma">Figma</Link>
-      </nav>
+      </nav> */}
 
       {/* Routing */}
       <Routes>

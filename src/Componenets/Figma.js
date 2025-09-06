@@ -65,13 +65,13 @@ function Figma() {
             <div className=" flex items-center justify-between   ">
 
                 <div className=" flex gap-2 ml-8 items-center ">
-                    <img src={search}/>
+                    <img src={search} alt="search"/>
                     <p className="text-gray-400 font-roboto text-sm">Search here...</p>
                 </div>
 
 
                 <div className="flex items-center justify-center">
-                    <img src={logo}/>
+                    <img src={logo} alt="logo"/>
                 </div>
 
 
@@ -86,7 +86,7 @@ function Figma() {
             <div className="flex items-center justify-between px-4 py-2">
 
                 <div className=" ml-4 flex-1 text-3xl">
-                    <img src={dash}/>
+                    <img src={dash} alt="dash"/>
                     
                 </div>
 
@@ -104,7 +104,7 @@ function Figma() {
                 </div>
 
                 <div className="flex-1 flex justify-end space-x-2">
-                   <img src={rain}/>
+                   <img src={rain} alt="rain"/>
                     <p className="text-gray-500 font-lato text-sm">Friday,30june 2023</p>
                 </div>
             </div>

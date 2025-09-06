@@ -482,7 +482,7 @@ function Figma() {
             <div className="p-2">
 
               <div className="flex space-x-2 py-2 ">
-                <img className="w-[43px] h-[43px] rounded-full" src={roy}/>
+                <img className="w-[43px] h-[43px] rounded-full" alt="roy" src={roy}/>
                 <h3 className="text-sm text-start font-semibold">
                 Top 5 iconic Apple stores across the world by design
               </h3>
@@ -502,7 +502,7 @@ function Figma() {
             <div className="p-2">
 
               <div className="flex space-x-2 py-2">
-                <img className="w-[43px] h-[43px] rounded-full" src={vikram}/>
+                <img className="w-[43px] h-[43px] rounded-full" alt="vikram" src={vikram}/>
                 <h3 className=" text-start text-sm font-semibold">
                 Rollercoaster ride of four retail industry IPOs
               </h3>
@@ -521,7 +521,7 @@ function Figma() {
             <img src={mantra} alt="Uniqlo" className="w-full h-44 object-cover" />
             <div className="p-2">
                 <div className="flex space-x-2 py-2">
-                    <img className="w-[43px] h-[43px] rounded-full" src={lahiri}/>
+                    <img className="w-[43px] h-[43px] rounded-full" alt="lahiri" src={lahiri}/>
                     <h3 className="text-start text-sm font-semibold">
                 Uniqlo India’s Success Mantra: Making headway
               </h3>
